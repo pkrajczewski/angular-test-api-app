@@ -4,6 +4,7 @@ import { HomeComponent } from './home/home.component'
 import { PlanetsComponent } from './planets/planets.component'
 import { AboutUsComponent } from './about-us/about-us.component'
 import { ContactComponent } from './contact/contact.component'
+import { PlanetDetailsComponent } from './planet-details/planet-details.component'
 
 const routes: Routes = [
   {
@@ -13,6 +14,10 @@ const routes: Routes = [
   {
     path: 'planets',
     component: PlanetsComponent
+  },
+  {
+    path: 'planets/:id',
+    component: PlanetDetailsComponent
   },
   {
     path: 'about-us',

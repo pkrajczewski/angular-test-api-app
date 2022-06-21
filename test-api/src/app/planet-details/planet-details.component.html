@@ -1,0 +1,37 @@
+<section class="planet-details">
+  <div class="planet-details__container">
+    <div class="planet-details__container-item">
+      <h2 class="planet-details__container-item-title">
+        Name:
+      </h2>
+      <h3 class="planet-details__container-item-description">
+        {{ planets.results[id-1].name }}
+      </h3>
+    </div>
+    <div class="planet-details__container-item">
+      <h2 class="planet-details__container-item-title">
+        Climate:
+      </h2>
+      <h3 class="planet-details__container-item-description">
+        {{ planets.results[id-1].climate }}
+      </h3>
+    </div>
+    <div class="planet-details__container-item">
+      <h2 class="planet-details__container-item-title">
+        Terrain:
+      </h2>
+      <h3 class="planet-details__container-item-description">
+        {{ planets.results[id-1].terrain }}
+      </h3>
+    </div>
+    <div class="planet-details__container-item">
+      <h2 class="planet-details__container-item-title">
+        Population:
+      </h2>
+      <h3 class="planet-details__container-item-description">
+        {{ planets.results[id-1].population }}
+      </h3>
+    </div>
+    <a routerLink="/planets" class="planet-details__container-button">GO BACK</a>
+  </div>
+</section>

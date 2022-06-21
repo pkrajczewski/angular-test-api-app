@@ -1,1 +1,9 @@
-<p>planets works!</p>
+<section class="planets">
+  <ul class="planets__list">
+    <li *ngFor="let planet of planets.results; let i = index" [attr.data-index]="i" class="planets__list-item">
+      <a [routerLink]="['/planets', i + 1]" class="planets__list-item-link">
+        Planet #{{ i + 1 }} is <strong>{{ planet.name }}</strong>
+      </a>
+    </li>
+  </ul>
+</section>

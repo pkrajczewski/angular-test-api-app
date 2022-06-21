@@ -8,6 +8,7 @@ import { PlanetsComponent } from './planets/planets.component';
 import { HomeComponent } from './home/home.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { ContactComponent } from './contact/contact.component';
+import { PlanetDetailsComponent } from './planet-details/planet-details.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { ContactComponent } from './contact/contact.component';
     HomeComponent,
     AboutUsComponent,
     ContactComponent,
+    PlanetDetailsComponent,
   ],
   imports: [
     BrowserModule,

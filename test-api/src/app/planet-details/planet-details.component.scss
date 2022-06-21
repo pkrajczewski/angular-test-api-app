@@ -1,0 +1,40 @@
+.planet-details {
+  padding: 0 6.25rem;
+  padding-top: 50px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &__container {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 1.5rem;
+
+    &-item {
+      display: flex;
+      flex-direction: column;
+      row-gap: 0.5rem;
+      &-title {
+        font-size: 2rem;
+        font-weight: 500;
+      }
+      &-description {
+        font-size: 1.7rem;
+        font-weight: 300;
+        text-transform: capitalize;
+      }
+    }
+    &-button {
+      color: black;
+      font-size: 1.5rem;
+      font-weight: 700;
+      padding: 10px 20px;
+      border: 2px solid black;
+      border-radius: 10px;
+      max-width: max-content;
+    }
+  }
+}

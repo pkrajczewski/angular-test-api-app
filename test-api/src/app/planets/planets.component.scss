@@ -1,0 +1,21 @@
+.planets {
+  margin-top: 50px;
+  min-height: 100vh;
+  background-color: honeydew;
+  padding: 0 6.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__list {
+    max-width: 1440px;
+    margin: 0 auto;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    &-item {
+      font-size: 2rem;
+    }
+  }
+}
